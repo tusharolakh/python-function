@@ -1,0 +1,6 @@
+''' Enter any no. & display cube of this no.?
+using function with argument & with return value?'''
+def cube(x):
+    return x**3
+ans = cube(5)
+print(ans)
