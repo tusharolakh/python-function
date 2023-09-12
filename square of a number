@@ -1,0 +1,6 @@
+''' Enter any no. & display square of this no.?
+using function with argument & with return value?'''
+def square(x):
+    return x**2
+ans = square(5)
+print(ans)
