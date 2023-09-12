@@ -1,0 +1,12 @@
+'''Enter any no. & display fibonacci series?
+using function with argument & no return value?'''
+def display_fibonacci(x):
+    num1, num2 = 0, 1
+    print(num1, num2, end=' ')
+    
+    for _ in range(2, x):
+        c = num1 + num2
+        print(c, end=' ')
+        num1, num2 = num2, c
+
+display_fibonacci(6)
