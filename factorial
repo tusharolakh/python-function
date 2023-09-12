@@ -1,0 +1,13 @@
+''' Enter any no. & display factorial of this no.?
+using function with argument & with return
+value?'''
+def factorial(x):
+    if x == 0:
+        return 1
+    result = 1
+    for num in range(1, x + 1):
+        result *= num
+    return result
+ans = factorial(5)
+print(ans)
+
