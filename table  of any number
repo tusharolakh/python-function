@@ -1,0 +1,7 @@
+''' Enter any no. & display table of this no.? b/w
+1 to 10? using function with argument & no return
+value?'''
+def table(x):
+    for num in range(1,11,1):
+        print(x * num)
+table(2)
