@@ -1,0 +1,7 @@
+''' Display all even nos. b/w 1 to 100 in horizontally?
+using function with no argument & no return value?'''
+def even():
+    for num in range(2,100,2):
+        print(num, end=' ')
+even()
+
