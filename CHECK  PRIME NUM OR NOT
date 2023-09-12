@@ -1,0 +1,16 @@
+''' Enter any no. & check this no. is Prime no. or not Prime no.?
+using function with argument & no return '''
+def is_prime(x):
+    if x <= 1:
+        print(f"{x} is not a prime number.")
+    elif x == 2:
+        print(f"{x} is a prime number.")
+    else:
+        for num in range(2, x):
+            if x % num == 0:
+                print(f"{x} is not a prime number.")
+                break
+        else:
+            print(f"{x} is a prime number.")
+
+is_prime(9)    
